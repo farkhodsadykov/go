@@ -3,6 +3,15 @@ package main
 import "fmt"
 
 func main() {
-	var card string = "Farkhod Sadykov"
-	fmt.Println(card)
+	var person = "Farkhod"
+	fmt.Println(printhello(), person)
+	fmt.Println(number())
+}
+
+func printhello() string {
+	return "Hello :"
+}
+
+func number() int {
+	return 123123
 }
